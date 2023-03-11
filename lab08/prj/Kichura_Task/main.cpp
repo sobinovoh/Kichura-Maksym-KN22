@@ -1,14 +1,15 @@
 #include <iostream>
 #include <clocale>
 #include <main.h>
+
 using namespace std;
 void printInfo()
 {
-    cout << "Êi÷óðà Ìàêñèì (c) | Àêàäåì-ãðóïà:ÊÍ-22 | ÖÍÒÓ  " << endl;
+    cout << "ÐšiÑ‡ÑƒÑ€Ð° ÐœÐ°ÐºÑÐ¸Ð¼ (c) | ÐÐºÐ°Ð´ÐµÐ¼-Ð³Ñ€ÑƒÐ¿Ð°:ÐšÐ-22 | Ð¦ÐÐ¢Ð£  " << endl;
 }
 int Task8_2_2(int a,int b)
 {
-    cout << "Ââåäiòü çíà÷åííÿ a òà b" << endl;
+    cout << "Ð’Ð²ÐµÐ´iÑ‚ÑŒ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð½Ñ a Ñ‚Ð° b" << endl;
     cin >> a;
     cin >> b;
     int c;
@@ -20,12 +21,12 @@ int Task8_2_2(int a,int b)
 }
 int Task8_2_3(int x, int z)
 {
-    cout << "Ââåäiòü çíà÷åííÿ x òà z" << endl;
+    cout << "Ð’Ð²ÐµÐ´iÑ‚ÑŒ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð½Ñ x Ñ‚Ð° z" << endl;
     cin >> x;
     cin >> z;
-    cout << "Â äåñÿòêîâié ñèñòåìi ÷èñëåííÿ x òà z âiäïîâiäíî:\t" << dec << x << "\t" << dec << z << endl;
-    cout << "Â øiñòíàäöÿòêîâié ñèñòåìi ÷èñëåííÿ x òà z âiäïîâiäíî:\t" << hex << x << "\t" << hex << z << endl;
-    cout << "Ðåçóëüòàò âèðàçó ó ôóíêöi¿  s_calculation(): " << fixed << s_calculation(x,z) << endl;
+    cout << "Ð’ Ð´ÐµÑÑÑ‚ÐºÐ¾Ð²iÐ¹ ÑÐ¸ÑÑ‚ÐµÐ¼i Ñ‡Ð¸ÑÐ»ÐµÐ½Ð½Ñ x Ñ‚Ð° z Ð²iÐ´Ð¿Ð¾Ð²iÐ´Ð½Ð¾:\t" << dec << x << "\t" << dec << z << endl;
+    cout << "Ð’ ÑˆiÑÑ‚Ð½Ð°Ð´Ñ†ÑÑ‚ÐºÐ¾Ð²iÐ¹ ÑÐ¸ÑÑ‚ÐµÐ¼i Ñ‡Ð¸ÑÐ»ÐµÐ½Ð½Ñ x Ñ‚Ð° z Ð²iÐ´Ð¿Ð¾Ð²iÐ´Ð½Ð¾:\t" << hex << x << "\t" << hex << z << endl;
+    cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð²Ð¸Ñ€Ð°Ð·Ñƒ Ñƒ Ñ„ÑƒÐ½ÐºÑ†iÑ—  s_calculation(): " << fixed << s_calculation(x,z) << endl;
 }
 int main()
 {
